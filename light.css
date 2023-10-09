@@ -1,0 +1,92 @@
+body{
+    display: flex;
+    background-color: crimson;
+    justify-content: center;
+    height: 700px;
+    align-items: center;
+}
+.body{
+    width: 250px;
+    height: 500px;
+    border-radius: 40px;
+    background-color:black;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 7px;
+}
+.signal{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: solid black;
+    
+}
+@keyframes traffic{
+    0%{
+        background-color: green;
+       
+    }
+    50%{
+        background-color: red;
+    }
+    100%{
+        background-color: yellow;
+    }
+}
+.red{
+    animation-name: traffic;
+    animation-duration: 2s;
+    /* animation-timing-function: 10s; */
+    animation-iteration-count: infinite;
+}
+@keyframes traffic2{
+    0%{
+        background-color: red;
+       
+    }
+    50%{
+        background-color: yellow;
+    }
+    100%{
+        background-color: green;
+    }
+}
+.yellow{
+    animation-name: traffic2;
+    animation-duration: 2s;
+    /* animation-timing-function: 10s; */
+    animation-iteration-count: infinite;
+}
+@keyframes traffic3{
+    0%{
+        background-color: yellow;
+       
+    }
+    50%{
+        background-color: green;
+    }
+    100%{
+        background-color: red;
+    }
+}
+.green{
+    animation-name: traffic3;
+    animation-duration: 2s;
+    /* animation-timing-function: 10s; */
+    animation-iteration-count: infinite;
+}
+@keyframes disco{
+    from{
+        color: yellow;
+    }
+    to{
+        color: green;
+    }
+}
+h1{
+    animation-name: disco;
+    animation-duration: 0.25s;
+    animation-iteration-count: infinite;
+}
