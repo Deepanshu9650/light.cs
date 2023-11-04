@@ -87,6 +87,6 @@ body{
 }
 h1{
     animation-name: disco;
-    animation-duration: 0.25s;
+    animation-duration: 0.5s;
     animation-iteration-count: infinite;
 }
